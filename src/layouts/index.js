@@ -121,8 +121,8 @@ const NewsletterModal = props => {
           justifyContent: 'center',
           alignItems: 'center',
           width: '100%',
-          maxWidth: 600,
-          height: 300,
+          maxWidth: 700,
+          height: 'auto',
           position: 'relative',
           padding: 20,
           backgroundColor: '#1b1b1b',
@@ -185,12 +185,14 @@ const NewsletterModal = props => {
         </p>
         <Formik
           initialValues={{
+            firstName: '',
+            lastName: '',     
             email: '',
           }}
           validationSchema={Yup.object().shape({
-            email: Yup.string()
-              .email()
-              .required(),
+            email: Yup.string().email().required(),
+            firstName: Yup.string().required(),
+            lastName: Yup.string().required(),
           })}
           onSubmit={(formData, { setStatus }) => {
             fetch('/', {
@@ -222,23 +224,37 @@ const NewsletterModal = props => {
               css={{ display: 'grid', gridTemplate: '1fr / 1fr' }}
             >
               <div
-                className="flex"
+                className="flex flex-col"
                 css={{ gridColumn: '1', gridRow: '1', transition: '.3s' }}
                 style={{
                   opacity: !sent ? 1 : 0,
                   pointerEvents: !sent ? 'all' : 'none',
                 }}
               >
+                <div class="flex flex-col md:flex-row md:gap-5">
+                  <Field
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First Name"
+                    className="block h-12 pl-4 text-lg text-gray-900 rounded-lg outline-none appearance-none focus:border-gray-800 md:mb-6 mb-4"
+                  />
+                  <Field
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last Name"
+                    className="block h-12 pl-4 text-lg text-gray-900 rounded-lg outline-none appearance-none focus:border-gray-800 md:mb-6 mb-4"
+                  />
+                </div>
                 <Field
                   id="email"
                   name="email"
                   placeholder="Email Address"
-                  className="block w-full h-12 pl-4 pr-6 -mr-6 text-lg text-gray-900 rounded-l-lg outline-none appearance-none sm:w-64 focus:border-gray-800"
+                  className="block w-full h-12 pl-4 text-lg text-gray-900 rounded-lg outline-none appearance-none focus:border-gray-800 mb-6"
                 />
                 <ButtonLink
                   as="button"
                   type="submit"
-                  className="h-12"
+                  className="h-12 m-auto"
                   css={{ padding: '0 30px' }}
                 >
                   JOIN
