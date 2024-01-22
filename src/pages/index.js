@@ -408,8 +408,6 @@ const Numbers = () => {
   const n3 = useRef()
   const n4 = useRef()
 
-  console.log('hello');
-
   return (
     <section
       ref={inViewRef}
