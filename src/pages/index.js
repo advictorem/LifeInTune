@@ -39,7 +39,6 @@ import prudential from '../assets/logos/prudential.svg'
 import redbull from '../assets/logos/redbull.svg'
 import ted from '../assets/logos/ted.svg'
 import toyota from '../assets/logos/toyota.svg'
-import twitter from '../assets/logos/twitter.svg'
 import universal from '../assets/logos/universal.svg'
 import walmart from '../assets/logos/walmart.svg'
 import AIAHongkong from '../assets/logos/AIA-hongkong.svg'
@@ -48,6 +47,9 @@ import COXMedia from '../assets/logos/COX-media.svg'
 import peloton from '../assets/logos/Peloton.svg'
 import PNCBank from '../assets/logos/PNC-Bank.svg'
 import tiktok from '../assets/logos/TikTok.svg'
+import ErnstYoung from '../assets/logos/ErnstYoung.svg'
+import Spotify from '../assets/logos/spotify.svg'
+
 
 import useMedia from '../hooks/useMedia'
 import { media } from '../styles/tools'
@@ -496,9 +498,9 @@ const IndexPage = ({ data }) => (
           {/* <RotateWords
             words={['AMPLIFY CLARITY', 'CONNECTIVITY', 'STRENGTH', 'SUCCESS']}
           /> */}
-          <h2>AMPLIFY YOUR SUCCESS</h2>
-          <p className="mt-2 text-2xl text-white font-body">
-            Music principles to empower daily life.
+          <h2 className="text-5xl">HEAR WHAT IS NOT HEARD</h2>
+          <p className="mt-2 text-xl text-white font-body">
+            Music principles to amplify your success.
           </p>
         </AutoSlide>
         <Demo />
@@ -856,7 +858,7 @@ const IndexPage = ({ data }) => (
             <img src={toyota} alt="" />
           </AutoScale>
           <AutoScale as="li">
-            <img src={twitter} alt="" />
+            <img src={Spotify} alt="" />
           </AutoScale>
           <AutoScale as="li">
             <img src={universal} alt="" />
@@ -883,7 +885,7 @@ const IndexPage = ({ data }) => (
             <img src={livenation} alt="" />
           </AutoScale>
           <AutoScale as="li">
-            <img src={tiktok} alt="" style={{ transform: 'scale(1.1)' }} />
+            <img src={ErnstYoung} alt="" style={{ transform: 'scale(1.1)' }} />
           </AutoScale>
           <AutoScale as="li">
             <img src={peloton} alt="" style={{ transform: 'scale(1.3)' }} />

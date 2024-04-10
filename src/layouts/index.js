@@ -102,6 +102,7 @@ const NewsletterModal = props => {
       style={{
         opacity: open ? 1 : 0,
         pointerEvents: open ? 'all' : 'none',
+        zIndex: `${open ? '40' : '-1'}`,
       }}
     >
       <div
