@@ -91,7 +91,7 @@ const IndexPage = ({ data }) => (
           className="mx-auto mt-10 text-white text-center"
           css={{ maxWidth: '36em' }}
         >
-          GET L.I.T. with the Life in Tune™ system that’s harnessed a revolution
+          GET L.I.T. with the Life in Tune<sup>®</sup> system that’s harnessed a revolution
           of solutions by conducting life through Music’s three key elements.
         </p>
 

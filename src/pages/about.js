@@ -218,7 +218,7 @@ const IndexPage = ({ data }) => (
         </p>
         <p className="mt-6 text-sm leading-relaxed text-gray-400">
           Freddie would later be dubbed the “Keynote Maestro” by the City of Los
-          Angeles for his groundbreaking Life In Tune™ system to “renew the
+          Angeles for his groundbreaking Life In Tune<sup>®</sup> system to “renew the
           national and international economy.” In constant demand to bring
           audiences in tune around the world, his clients include IBM, Toyota,
           NASA, Apple, Blue Cross Health, Google and Prudential Financial
@@ -350,7 +350,7 @@ const IndexPage = ({ data }) => (
             css={{ fontSize: '1vw' }}
           >
             Freddie would later be dubbed the “Keynote Maestro” by the City of
-            Los Angeles for his groundbreaking Life In Tune™ system to “renew
+            Los Angeles for his groundbreaking Life In Tune<sup>®</sup> system to “renew
             the national and international economy.” In constant demand to bring
             audiences in tune around the world, his clients include IBM, Toyota,
             NASA, Apple, Blue Cross Health, Google and Prudential Financial

@@ -1006,7 +1006,7 @@ const IndexPage = ({ data }) => (
         </AutoFade>
         <AutoFade>
           <p className="mt-5 text-center text-white" css={{ maxWidth: '34em' }}>
-            GET L.I.T. with the Life in Tune™ system that’s harnessed a
+            GET L.I.T. with the Life in Tune<sup>®</sup> system that’s harnessed a
             revolution of solutions by conducting life through Music’s three key
             elements.
           </p>

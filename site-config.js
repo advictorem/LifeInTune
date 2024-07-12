@@ -6,9 +6,9 @@ module.exports = {
   startUrl: '/',
   defaultLang: 'en',
   defaultTitle:
-    'Life In Tune™ with Freddie Ravel | Keynote Speaker, Communication Expert, Business Leader',
+    'Life In Tune® with Freddie Ravel | Keynote Speaker, Communication Expert, Business Leader',
   defaultDescription:
-    'Freddie Ravel’s groundbreaking Life In Tune™ system engages and reveals the Four Foundations of music—Melody, Harmony, Rhythm, and SCORE—to inspire and transform audiences around the world.',
+    'Freddie Ravel’s groundbreaking Life In Tune® system engages and reveals the Four Foundations of music—Melody, Harmony, Rhythm, and SCORE—to inspire and transform audiences around the world.',
   defaultKeywords: [
     'Business Coach',
     'Keynote Speaker',
