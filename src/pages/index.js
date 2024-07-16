@@ -272,13 +272,13 @@ const Demo = () => {
           icon={
             <svg
               viewBox="0 0 150 150"
-              className="w-6 h-6 ml-3 -mr-5 fill-current"
+              className="w-6 h-6 ml-3 -mr-5 fill-current uppercase"
             >
               <path d="M75 0C33.65 0 0 33.65 0 75s33.65 75 75 75 75-33.65 75-75S116.36 0 75 0zm33.67 77.25l-50.73 39.31a3.66 3.66 0 01-5.92-2.86V35.08a3.66 3.66 0 015.92-2.85l50.73 39.3a3.6 3.6 0 010 5.72z" />
             </svg>
           }
         >
-          WATCH VIRTUAL KEYNOTE DEMO
+          Virtually Freddie
         </ButtonLink>
       </AutoSlide>
       <div
@@ -311,12 +311,13 @@ const Demo = () => {
             css={{ paddingTop: '56.25%' }}
           >
             <iframe
-              src={`https://player.vimeo.com/video/264657556?color=b4903a${
+              src={`https://www.youtube.com/embed/ppuLLTdbTKk?si=5fSVtsj9w21IOlh4F${
                 isOpen ? '&autoplay=1' : ''
               }`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              title="Watch The Experience"
+              title="Watch Virtually Freddie"
               allowFullScreen
+              referrerpolicy="strict-origin-when-cross-origin" 
               className="absolute top-0 left-0 w-full h-full bg-black"
             />
           </div>
@@ -750,7 +751,7 @@ const IndexPage = ({ data }) => (
             WebkitTextFillColor: 'transparent',
           }}
         >
-          PREVIEW VIRTUAL KEYNOTE
+          Freddie Ravel Teaser
         </AutoFade>
         <AutoFade className="w-full mx-auto sm:w-4/5">
           <VideoPlayer
@@ -758,10 +759,11 @@ const IndexPage = ({ data }) => (
             webroll={bgVideoColor}
             video={
               <iframe
-                src="https://player.vimeo.com/video/517438226?autoplay=1&color=b4903a"
+                src="https://www.youtube.com/embed/ppuLLTdbTKk?si=5fSVtsj9w21IOlh4F&autoplay=1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                title="WATCH VIRTUAL KEYNOTE DEMO"
+                title="Watch Freddie Ravel Teaser"
                 allowFullScreen
+                referrerpolicy="strict-origin-when-cross-origin" 
                 className="absolute top-0 left-0 w-full h-full bg-black"
               />
             }
