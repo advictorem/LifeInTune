@@ -275,7 +275,7 @@ const IndexPage = ({ data }) => (
             webroll={bgVideoColor}
             video={
               <iframe
-                src="https://www.youtube.com/embed/C0DPdy98e4c?si=GcDz4Q0q-af1DK3I&autoplay=1"
+                src="https://www.youtube.com/embed/ppuLLTdbTKk?si=IkUn1o5_1h-AiUw1&autoplay=1"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 title="Watch The Experience"
                 allowFullScreen
