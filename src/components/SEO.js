@@ -88,6 +88,9 @@ const SEO = ({
             { name: 'twitter:image', content: twitterImage },
             { name: 'twitter:card', content: 'summary_large_image' },
 
+            //youtube meta
+            {name: 'referrer', content="no-referrer"},
+
             ...meta,
           ]}
         />
