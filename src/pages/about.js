@@ -360,7 +360,7 @@ const IndexPage = ({ data }) => (
             dissonance to harmony.
           </p>
           <ButtonLink
-            href="/LIT-Freddie-Ravel-Speaker-Programs2020-21_compressed.pdf"
+            href="/Freddie-Ravel-Speaker-Program(2025).pdf"
             className="inline-flex mt-6"
             icon={
               <svg
