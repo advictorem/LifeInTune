@@ -100,7 +100,7 @@ const IndexPage = ({ data }) => (
                 </p>
                 <div css={{ maxWidth: 460 }}>
                   <ButtonLink
-                    href="/LIT-Freddie-Ravel-Programs.pdf"
+                    href="/Freddie-Ravel-Speaker-Program(2025).pdf"
                     className="mt-5 md:mt-12"
                     css={{ [media.max.tablet]: { fontSize: 10 } }}
                     icon={
