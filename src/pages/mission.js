@@ -13,7 +13,7 @@ import { AutoSlide, AutoFade } from '../components/Animated'
 
 export const query = graphql`
   query {
-    missionPoster: file(relativePath: { eq: "lifeintune-mission.jpg" }) {
+    missionPoster: file(relativePath: { eq: "lifeintunemissionthumbnail.jpg" }) {
       ...pageContainerWide
     }
     waves: file(relativePath: { eq: "gold-wave.png" }) {
