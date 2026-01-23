@@ -27,10 +27,10 @@ const fontStyleSheets = [
 const fontFaces = [
   {
     '@font-face': {
-      fontFamily: 'turismo',
+      fontFamily: 'Montserrat',
       fontStyle: 'normal',
-      fontWeight: 100,
-      src: 'url("/fonts/turismo-cf-0.woff2") format("woff2")',
+      fontWeight: 400,
+      src: 'url("/fonts/Montserrat-Regular.woff2") format("woff2")',
     },
   },
   {

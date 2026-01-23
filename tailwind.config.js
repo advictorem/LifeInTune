@@ -9,7 +9,7 @@ module.exports = {
         '2xl': '1500px',
       },
       fontFamily: {
-        display: 'turismo, sans-serif',
+        display: 'Montserrat, sans-serif',
         body: 'museo, sans-serif',
       },
       colors: theme.colors,
