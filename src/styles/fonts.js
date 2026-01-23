@@ -29,8 +29,8 @@ const fontFaces = [
     '@font-face': {
       fontFamily: 'Montserrat',
       fontStyle: 'normal',
-      fontWeight: 400,
-      src: 'url("/fonts/Montserrat-Regular.woff2") format("woff2")',
+      fontWeight: 700,
+      src: 'url("/fonts/Montserrat-Bold.woff2") format("woff2")',
     },
   },
   {
