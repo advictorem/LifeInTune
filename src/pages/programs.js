@@ -110,7 +110,7 @@ const IndexPage = ({ data }) => (
           <AutoSlide up delay={300} className="mb-10 lg:mb-32">
             <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
               <h3
-                className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+                className="relative text-lg font-bold leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
                 css={{
                   backgroundImage:
                     'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -181,7 +181,7 @@ const IndexPage = ({ data }) => (
         >
           <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+              className="relative text-lg font-bold leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
               css={{
                 backgroundImage:
                   'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -249,7 +249,7 @@ const IndexPage = ({ data }) => (
         >
           <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+              className="relative text-lg font-bold leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
               css={{
                 backgroundImage:
                   'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -258,7 +258,7 @@ const IndexPage = ({ data }) => (
               }}
             >
               Getting in Tune With ESG
-              <span className="block text-sm lg:text-lg">
+              <span className="block text-sm lg:text-lg font-bold">
                 (Environmental, Social, and Governance)
               </span>
             </h3>
@@ -326,7 +326,7 @@ const IndexPage = ({ data }) => (
         >
           <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+              className="relative font-bold text-lg leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
               css={{
                 backgroundImage:
                   'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -394,7 +394,7 @@ const IndexPage = ({ data }) => (
         <AutoSlide up className="mb-10 lg:mb-32">
           <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+              className="relative text-lg font-bold leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
               css={{
                 backgroundImage:
                   'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -480,7 +480,7 @@ const IndexPage = ({ data }) => (
         <AutoSlide up className="mb-10 lg:mb-32">
           <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+              className="relative text-lg font-bold leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
               css={{
                 backgroundImage:
                   'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -531,7 +531,7 @@ const IndexPage = ({ data }) => (
                   mundane transforms to magnificent and why so many clients
                   invite him back year after year!
                 </p>
-                <ButtonLink to="/contact" className="inline-flex">
+                <ButtonLink to="/contact" className="inline-flex font-bold">
                   Request Freddie
                 </ButtonLink>
               </div>
@@ -550,7 +550,7 @@ const IndexPage = ({ data }) => (
         <AutoSlide up>
           <header className="flex justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative text-lg font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
+              className="relative text-bold font-hairline leading-tight text-center uppercase font-display lg:text-3xl text-gold-500"
               css={{
                 backgroundImage:
                   'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -578,7 +578,7 @@ const IndexPage = ({ data }) => (
                   world’s most influential businesses and institutions
                   including EY, Thompson Reuters and NASA.
                 </p>
-                <ButtonLink to="/contact" className="inline-flex">
+                <ButtonLink to="/contact" className="inline-flex font-bold">
                   INQUIRE FOR MORE INFO
                 </ButtonLink>
               </div>

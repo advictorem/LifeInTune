@@ -82,7 +82,7 @@ const IndexPage = ({ data }) => (
     <div className="pb-20" css={{ backgroundColor: '#1b1b1b' }}>
       <Container>
         <h3
-          className="mx-auto font-display leading-none text-white uppercase text-center"
+          className="mx-auto font-bold leading-none text-white uppercase text-center"
           css={{ fontSize: '3.2vw', paddingTop: '7vw', maxWidth: '13em' }}
         >
           DISCOVER YOUR LIFE IN TUNE
@@ -98,7 +98,7 @@ const IndexPage = ({ data }) => (
         <MissionRings className="mt-12" />
 
         <AutoFade>
-          <h3 className="relative mt-16 font-display font-hairline text-3xl leading-tight text-center text-white uppercase">
+          <h3 className="relative mt-16 font-bold text-3xl leading-tight text-center text-white uppercase">
             Featured Programs
           </h3>
         </AutoFade>

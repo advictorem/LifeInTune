@@ -383,7 +383,7 @@ const IndexPage = ({ data }) => (
         >
           <header className="flex flex-col justify-center px-6 py-6 bg-black lg:py-12">
             <h3
-              className="relative mx-auto text-lg font-hairline leading-tight text-center uppercase font-display sm:text-3xl text-gold-500"
+              className="relative mx-auto text-lg font-bold leading-tight text-center uppercase font-display sm:text-3xl text-gold-500"
               css={{
                 maxWidth: '70ex',
                 backgroundImage:

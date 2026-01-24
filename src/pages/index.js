@@ -499,7 +499,7 @@ const IndexPage = ({ data }) => (
           {/* <RotateWords
             words={['AMPLIFY CLARITY', 'CONNECTIVITY', 'STRENGTH', 'SUCCESS']}
           /> */}
-          <h2 className="text-5xl">HEAR WHAT IS NOT HEARD</h2>
+          <h2 className="text-5xl font-bold">HEAR WHAT IS NOT HEARD</h2>
           <p className="mt-2 text-xl text-white font-body">
             Music principles to amplify your success.
           </p>
@@ -743,7 +743,7 @@ const IndexPage = ({ data }) => (
       <Container>
         <AutoFade
           as="h3"
-          className="relative text-xl font-hairline leading-tight text-center uppercase font-display sm:text-3xl"
+          className="relative text-xl font-bold leading-tight text-center uppercase font-display sm:text-3xl"
           css={{
             backgroundImage:
               'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
@@ -778,7 +778,7 @@ const IndexPage = ({ data }) => (
       <Container className="flex flex-col items-center">
         <AutoFade>
           <h3
-            className="relative text-xl font-hairline leading-tight text-center text-gray-700 uppercase font-display sm:text-3xl"
+            className="relative text-xl font-bold leading-tight text-center text-gray-700 uppercase font-display sm:text-3xl"
             css={{ maxWidth: '27em' }}
           >
             "ROCKED US WITH RELEVANCE, HOPE AND VALUE"
@@ -1029,7 +1029,7 @@ const IndexPage = ({ data }) => (
       />
       <Container>
         <AutoFade>
-          <h3 className="relative text-xl font-hairline leading-tight text-center text-gray-700 uppercase font-display sm:text-3xl">
+          <h3 className="relative text-xl font-bold leading-tight text-center text-gray-700 uppercase font-display sm:text-3xl">
             Featured Programs
           </h3>
         </AutoFade>

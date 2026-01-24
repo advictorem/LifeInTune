@@ -183,13 +183,13 @@ const IndexPage = ({ data }) => (
           css={{ maxWidth: 500 }}
         />
         <h3
-          className="mt-6 text-xl leading-none text-white uppercase font-display"
+          className="mt-6 text-xl leading-none text-white uppercase font-bold"
           css={{ maxWidth: '8em' }}
         >
           MEET FREDDIE RAVEL
         </h3>
         <p
-          className="mt-3 text-base leading-none uppercase font-display text-gold-300"
+          className="mt-3 font-bold space-x-10text-base leading-none uppercase font-display text-gold-300"
           css={{ maxWidth: '20em' }}
         >
           Grammy-nominated performer, communication expert and business
@@ -361,7 +361,7 @@ const IndexPage = ({ data }) => (
           </p>
           <ButtonLink
             href="/Freddie-Ravel-Speaker-Program(2025).pdf"
-            className="inline-flex mt-6"
+            className="inline-flex mt-6 font-bold"
             icon={
               <svg
                 viewBox="0 0 30 30"
@@ -430,7 +430,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1988-90
           </div>
           <div className="w-full transition img-hover-effect">
@@ -443,7 +443,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1989
           </div>
           <div className="w-full transition img-hover-effect">
@@ -459,7 +459,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1990
           </div>
           <div className="w-full transition img-hover-effect">
@@ -474,7 +474,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1990-95
           </div>
           <div className="w-full transition img-hover-effect">
@@ -490,7 +490,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1991
           </div>
           <div className="w-full transition img-hover-effect">
@@ -506,7 +506,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1995
           </div>
           <div className="w-full transition img-hover-effect">
@@ -521,7 +521,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1996
           </div>
           <div className="w-full transition img-hover-effect">
@@ -536,7 +536,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1996
           </div>
           <div className="w-full transition img-hover-effect">
@@ -551,7 +551,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             1999
           </div>
           <div className="w-full transition img-hover-effect">
@@ -567,7 +567,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2001
           </div>
           <div className="w-full transition img-hover-effect">
@@ -582,7 +582,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2001
           </div>
           <div className="w-full transition img-hover-effect">
@@ -597,7 +597,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2003
           </div>
           <div className="w-full transition img-hover-effect">
@@ -612,7 +612,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2006
           </div>
           <div className="w-full transition img-hover-effect">
@@ -628,7 +628,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2008
           </div>
           <div className="w-full transition img-hover-effect">
@@ -644,7 +644,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2009
           </div>
           <div className="w-full transition img-hover-effect">
@@ -660,7 +660,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2009
           </div>
           <div className="w-full transition img-hover-effect">
@@ -673,7 +673,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2010
           </div>
           <div className="w-full transition img-hover-effect">
@@ -686,7 +686,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2011
           </div>
           <div className="w-full transition img-hover-effect">
@@ -701,7 +701,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2012
           </div>
           <div className="w-full transition img-hover-effect">
@@ -724,7 +724,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2014
           </div>
           <div className="w-full transition img-hover-effect">
@@ -739,7 +739,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2015
           </div>
           <div className="w-full transition img-hover-effect">
@@ -754,7 +754,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2016
           </div>
           <div className="w-full transition img-hover-effect">
@@ -770,7 +770,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2016
           </div>
           <div className="w-full transition img-hover-effect">
@@ -786,7 +786,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2017
           </div>
           <div className="w-full transition img-hover-effect">
@@ -802,7 +802,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2018
           </div>
           <div className="w-full transition img-hover-effect">
@@ -817,7 +817,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2019
           </div>
           <div className="w-full transition img-hover-effect">
@@ -836,7 +836,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             2019
           </div>
           <div className="w-full transition img-hover-effect">
@@ -855,7 +855,7 @@ const IndexPage = ({ data }) => (
             className="mb-4 rounded-full bg-gold-300"
             css={{ width: 13, height: 13 }}
           ></div>
-          <div className="mb-4 text-3xl text-center font-display text-gold-300">
+          <div className="mb-4 text-3xl text-center font-display text-gold-300 font-bold">
             PRESENT
           </div>
           <div className="w-full transition img-hover-effect">

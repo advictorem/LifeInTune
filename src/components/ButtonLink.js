@@ -6,7 +6,7 @@ const ButtonLink = forwardRef(
   ({ as: As = Link, className, icon, children, ...props }, ref) => (
     <As
       ref={ref}
-      className={`flex justify-center items-center relative py-2 px-10 font-display font-hariline text-sm leading-relaxed text-center uppercase rounded-full text-white focus:outline-none ${className}`}
+      className={`flex justify-center items-center relative py-2 px-10 font-display font-bold text-sm leading-relaxed text-center uppercase rounded-full text-white focus:outline-none ${className}`}
       css={{
         backgroundSize: '100% 200%',
         backgroundPosition: 'center bottom',

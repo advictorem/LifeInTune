@@ -282,7 +282,7 @@ const MissionRings = ({ className, ...props }) => {
             />
           </svg>
           <div
-            className="flex justify-center items-center w-full h-full absolute top-0 left-0 font-display text-white"
+            className="flex justify-center items-center w-full h-full absolute top-0 left-0 font-bold text-white"
             style={{ transform: 'translate(-0.5em, -0.5em)' }}
           >
             MELODY
@@ -309,7 +309,7 @@ const MissionRings = ({ className, ...props }) => {
             />
           </svg>
           <div
-            className="flex justify-center items-center w-full h-full absolute top-0 left-0 font-display text-white"
+            className="flex justify-center items-center w-full h-full absolute top-0 left-0 font-bold text-white"
             style={{ transform: 'translate(0.5em, -0.5em)' }}
           >
             HARMONY
@@ -335,7 +335,7 @@ const MissionRings = ({ className, ...props }) => {
             />
           </svg>
           <div
-            className="flex justify-center items-center w-full h-full absolute top-0 left-0 font-display text-white"
+            className="flex justify-center items-center w-full h-full absolute top-0 left-0 font-bold text-white"
             style={{ transform: 'translate(0em, 0.7em)' }}
           >
             RHYTHM

@@ -327,21 +327,21 @@ const Navbar = props => {
             <div className="absolute flex" css={{ top: 0, right: '100%' }}>
               <Link
                 to="/programs"
-                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast"
+                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast font-bold"
                 activeClassName="text-gold-300"
               >
                 Programs
               </Link>
               <Link
                 to="/about"
-                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast"
+                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast font-bold"
                 activeClassName="text-gold-300"
               >
                 About
               </Link>
               <Link
                 to="/mission"
-                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast"
+                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast font-bold"
                 activeClassName="text-gold-300"
               >
                 Mission
@@ -404,14 +404,14 @@ const Navbar = props => {
             >
               <Link
                 to="/buzz"
-                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast"
+                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast font-bold"
                 activeClassName="text-gold-300"
               >
                 Buzz
               </Link>
               <Link
                 to="/planners"
-                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast"
+                className="px-2 text-xs uppercase 2xl:text-sm lg:px-5 2xl:px-8 hover:text-gold-300 transition-fast font-bold"
                 activeClassName="text-gold-300"
               >
                 Planners

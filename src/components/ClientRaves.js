@@ -43,7 +43,7 @@ const ClientRaves = ({ className, ...props }) => {
       />
       <Container>
         <AutoFade>
-          <h3 className="relative text-xl font-hairline leading-tight text-center text-gray-700 uppercase font-display sm:text-3xl">
+          <h3 className="relative text-xl font-bold leading-tight text-center text-gray-700 uppercase font-display sm:text-3xl">
             Client Raves and Reviews
           </h3>
         </AutoFade>

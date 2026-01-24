@@ -114,7 +114,7 @@ const IndexPage = ({ data }) => (
       <AutoFade>
         <Container>
           <h3
-            className="mx-auto pt-10 font-display text-xl leading-none text-white uppercase text-center"
+            className="mx-auto pt-10 font-bold text-xl leading-none text-white uppercase text-center"
             css={{ [media.tablet]: { fontSize: '3.2vw', paddingTop: '7vw' } }}
           >
             BUZZ & Accolades
@@ -148,7 +148,7 @@ const IndexPage = ({ data }) => (
               css={{ [media.tablet]: { width: 'calc(100% - 28% + 2%)' } }}
             >
               <p
-                className="font-display text-xl sm:text-3xl leading-tight text-gray-1000 text-center uppercase"
+                className="font-bold text-xl sm:text-3xl leading-tight text-gray-1000 text-center uppercase"
                 css={{ maxWidth: '23em' }}
               >
                 “Freddie’s spirit is infinite silence and dynamism at the same
@@ -176,7 +176,7 @@ const IndexPage = ({ data }) => (
               }}
             />
           </div>
-          <div className="px-5 md:px-12 py-10 font-display text-xl sm:text-3xl leading-tight text-center md:text-left uppercase text-gold-300 bg-gray-1000">
+          <div className="px-5 md:px-12 py-10 font-bold text-xl sm:text-3xl leading-tight text-center md:text-left uppercase text-gold-300 bg-gray-1000">
             Dr. Deepak Chopra
           </div>
         </AutoSlide>
@@ -211,7 +211,7 @@ const IndexPage = ({ data }) => (
               className="flex flex-col items-center ml-auto"
               css={{ [media.tablet]: { width: 'calc(100% - 33% + 2%)' } }}
             >
-              <p className="font-display text-xl sm:text-3xl text-gray-1000 text-center uppercase">
+              <p className="font-bold text-xl sm:text-3xl text-gray-1000 text-center uppercase">
                 “Freddie is brilliant.”
               </p>
               <p
@@ -226,7 +226,7 @@ const IndexPage = ({ data }) => (
               </p>
             </div>
           </div>
-          <div className="px-5 md:px-12 py-10 font-display text-xl sm:text-3xl leading-tight text-center md:text-left uppercase text-gold-300 bg-gray-1000">
+          <div className="px-5 md:px-12 py-10 font-bold text-xl sm:text-3xl leading-tight text-center md:text-left uppercase text-gold-300 bg-gray-1000">
             Madonna
           </div>
         </AutoSlide>
@@ -252,7 +252,7 @@ const IndexPage = ({ data }) => (
                 [media.tablet]: { width: 'calc(100% - 26% + 2%)' },
               }}
             >
-              <p className="font-display text-xl sm:text-3xl text-gray-1000 text-center uppercase">
+              <p className="font-bold text-xl sm:text-3xl text-gray-1000 text-center uppercase">
                 “Freddie es puro corazon.”
               </p>
               <p
@@ -277,7 +277,7 @@ const IndexPage = ({ data }) => (
               }}
             />
           </div>
-          <div className="px-5 md:px-12 py-10 font-display text-xl sm:text-3xl leading-tight text-center md:text-left uppercase text-gold-300 bg-gray-1000">
+          <div className="px-5 md:px-12 py-10 font-bold text-xl sm:text-3xl leading-tight text-center md:text-left uppercase text-gold-300 bg-gray-1000">
             CARLOS SANTANA
           </div>
         </AutoSlide>
@@ -295,7 +295,7 @@ const IndexPage = ({ data }) => (
       />
       <Container>
         <AutoFade>
-          <h3 className="relative font-display font-hairline text-xl sm:text-3xl leading-tight text-center text-gray-700 uppercase">
+          <h3 className="relative font-bold font-hairline text-xl sm:text-3xl leading-tight text-center text-gray-700 uppercase">
             Client Raves and Reviews
           </h3>
         </AutoFade>
