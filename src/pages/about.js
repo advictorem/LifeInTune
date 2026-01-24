@@ -302,13 +302,13 @@ const IndexPage = ({ data }) => (
           }}
         >
           <h3
-            className="leading-none text-gray-900 uppercase font-display"
+            className="leading-none text-gray-900 uppercase font-display font-bold"
             css={{ maxWidth: '8em', fontSize: '3.3vw' }}
           >
             MEET FREDDIE RAVEL
           </h3>
           <p
-            className="leading-none uppercase font-display text-gold-300"
+            className="leading-none uppercase font-display text-gold-300 font-bold"
             css={{
               maxWidth: '20em',
               margin: '1.2em 0',
