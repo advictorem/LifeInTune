@@ -1,5 +1,5 @@
 const fontPreloadHeaders = [
-  'Link: </fonts/turismo-cf-0.woff2>; rel=preload; as=font; crossorigin',
+  'Link: </fonts/Montserrat-Bold.woff2>; rel=preload; as=font; crossorigin',
   'Link: </fonts/Museo-300.woff2>; rel=preload; as=font; crossorigin',
   // 'Link: <https://use.typekit.net/nkd7jjw.css>; rel=preload; as=style',
 ]
