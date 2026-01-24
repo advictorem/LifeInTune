@@ -169,7 +169,7 @@ const NewsletterModal = props => {
         </button>
 
         <h3
-          className="relative mx-auto text-lg font-hairline leading-tight text-center uppercase font-display sm:text-3xl text-gold-500"
+          className="relative mx-auto text-lg font-bold leading-tight text-center uppercase font-display sm:text-3xl text-gold-500"
           css={{
             backgroundImage:
               'linear-gradient(to right, #91742d 10%, #fffea6 49%, #91742d 94%)',
