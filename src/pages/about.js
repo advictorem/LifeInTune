@@ -375,7 +375,7 @@ const IndexPage = ({ data }) => (
           </ButtonLink>
         </AutoSlide>
       </div>
-      <p className="flex items-center justify-center mt-10 text-xs text-gray-500 uppercase lg:mt-20 font-display md:text-sm">
+      <p className="font-bold flex items-center justify-center mt-10 text-xs text-gray-500 uppercase lg:mt-20 font-display md:text-sm">
         <svg viewBox="0 0 23.1 29" className="w-8 h-8 mr-3 fill-current">
           <path
             d="M11.1 4c-.2-1.1-1.2-2-2.4-2a2.5 2.5 0 00-2.6 2.5v8.9c-2-1.8-4.2-3.2-5.6-1.8-2 2 2.2 5.9 5.4 11.8 2.3 4.1 5.5 5.6 8.7 5.6 4.7 0 8.5-3.8 8.5-8.5v-6c0-1.4-1.1-2.5-2.5-2.5-.6 0-1.1.2-1.5.5 0-1.4-1.1-2.5-2.5-2.5-.6 0-1.2.2-1.7.6a2.5 2.5 0 00-3.8-1.1V5h7l-3.2 3.2.8.8 4.5-4.5L15.7 0l-.8.8L18.2 4h-7.1zm3.5 24c4.1 0 7.5-3.6 7.5-7.5 0 0 0 2.3 0 0v-6c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5v.5h-1v-2.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5V14h-1v-2.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5V15h-1V4.5c0-.8-.6-1.5-1.5-1.5-.8 0-1.5.7-1.5 1.5v11.3c-2.1-2.2-4.8-4.6-5.9-3.5C.2 13.4 3 16.4 6.9 23c1.7 2.9 4 5 7.7 5z"
