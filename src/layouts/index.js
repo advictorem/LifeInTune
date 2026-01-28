@@ -16,6 +16,8 @@ import { Formik, Form, Field } from 'formik'
 import * as Yup from 'yup'
 
 import newsletterImage from '../assets/newsletter-image.png'
+import goldLogo from '../assets/gold-logo.svg';
+
 
 const encode = data =>
   Object.keys(data)
@@ -679,10 +681,7 @@ const Footer = props => {
         }}
       >
         <div className="flex-col items-center hidden lg:flex">
-          <Img
-            fluid={data.goldLogo.childImageSharp.fluid}
-            css={{ width: 150 }}
-          />
+          <img style={{width: "150px"}} src={goldLogo} alt="Life in Tune logo" />
           <p className="mt-5 text-xs text-center text-gray-600">
             ©{new Date().getFullYear()} All Right Reserved.
             <br />
@@ -702,11 +701,7 @@ const Footer = props => {
               of music to unlock the minds, hearts and potential of audiences
               around the world.
             </p>
-            <Img
-              fluid={data.goldLogo.childImageSharp.fluid}
-              className="ml-5 lg:hidden"
-              css={{ width: 85 }}
-            />
+            <img style={{width: "85px"}} className="ml-5 lg:hidden" src={goldLogo} alt="Life in Tune logo" />
           </div>
           {/* <Link
             out
