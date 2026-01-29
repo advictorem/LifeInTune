@@ -81,13 +81,13 @@ const SEO = ({
             // Facebook specific
             { property: 'og:site_name', content: siteName },
             { property: 'og:locale', content: lang },
-            { property: 'og:image', content: 'siteUrl + shareImage' },
+            { property: 'og:image', content: siteUrl + shareImage },
             { property: 'og:type', content: 'website' },
 
             // Twitter specific
             { name: 'twitter:site', content: twitterSite },
             { name: 'twitter:creator', content: twitterCreator },
-            { name: 'twitter:image', content: 'siteUrl + shareImage' },
+            { name: 'twitter:image', content: siteUrl + shareImage },
             { name: 'twitter:card', content: 'summary_large_image' },
 
             //youtube meta
