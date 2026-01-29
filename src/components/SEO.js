@@ -30,10 +30,10 @@ const SEO = ({
           fbAppId
         }
       }
-      facebookImage: file(relativePath: { eq: "share-image.jpg" }) {
+      facebookImage: file(relativePath: { eq: "ravel-share-img.jpg" }) {
         ...facebookShareImage
       }
-      twitterImage: file(relativePath: { eq: "share-image.jpg" }) {
+      twitterImage: file(relativePath: { eq: "ravel-share-img.jpg" }) {
         ...twitterShareImage
       }
     }
