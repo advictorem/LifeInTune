@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Location } from '@reach/router'
-import { shareImage } from '../assets/ravel-share-img.jpg'
+import shareImage from '../assets/ravel-share-img.jpg'
 
 const SEO = ({
   lang: userLang,
@@ -14,6 +14,7 @@ const SEO = ({
   twitterImage: userTwitterImage,
   meta = [],
 }) => {
+  console.log(shareImage)
   const data = useStaticQuery(graphql`
     {
       site {
