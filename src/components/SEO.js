@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Location } from '@reach/router'
+import { shareImage } from '../assets/ravel-share-img.jpg'
 
 const SEO = ({
   lang: userLang,
@@ -79,13 +80,13 @@ const SEO = ({
             // Facebook specific
             { property: 'og:site_name', content: siteName },
             { property: 'og:locale', content: lang },
-            { property: 'og:image', content: facebookImage },
+            { property: 'og:image', content: shareImage },
             { property: 'og:type', content: 'website' },
 
             // Twitter specific
             { name: 'twitter:site', content: twitterSite },
             { name: 'twitter:creator', content: twitterCreator },
-            { name: 'twitter:image', content: twitterImage },
+            { name: 'twitter:image', content: shareImage },
             { name: 'twitter:card', content: 'summary_large_image' },
 
             //youtube meta
