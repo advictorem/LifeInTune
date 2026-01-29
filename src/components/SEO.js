@@ -81,7 +81,7 @@ const SEO = ({
             // Facebook specific
             { property: 'og:site_name', content: siteName },
             { property: 'og:locale', content: lang },
-            { property: 'og:image:url', content: 'https://www.lifeintune.com/ravel-share-img.jpg' },
+            { property: 'og:image', content: 'https://www.lifeintune.com/ravel-share-img.jpg' },
             { property: 'og:type', content: 'website' },
 
             // Twitter specific
